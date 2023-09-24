@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>Giphy Party!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Giphy Search Party</h1>
+  <h5>Powered by GIPHY!</h5>
+  <form id="search-form">
+    <input type="text" id="search" placeholder="Search for gifs!">
+    <button type="submit">Search</button>
+  </form>
+  <div id="reset">
+    <button id="clear-results">Clear Results</button>
+  </div>
+  <div id="results">
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+#search-form { display: inline-block; }
+#reset { display: inline-block; }
+#results { display: flex; width: 90%; flex-wrap: wrap; }
+img { flex-direction: row; width: 30%; border: 1px solid #ededed; margin: 2rem 2rem 0 0; }
+img:hover { outline: 3px solid coral; }
